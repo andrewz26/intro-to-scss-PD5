@@ -1,12 +1,4 @@
-$colors: (
-  primary: #45a29e,
-  primary-light: #66fcf1,
-);
-
-@function color($color-name) {
-  @return map-get($colors, $color-name);
-}
-
+@import "_variables.scss";
 //px's are for monkeys, rem OR relative units, 1rem = 10px, vw = viewport width AND VH= viewport height
 html,
 body {
