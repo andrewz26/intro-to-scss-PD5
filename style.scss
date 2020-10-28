@@ -6,6 +6,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%; //1 rem === 10px
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
 }
 .header {
   height: 100vh;
@@ -15,9 +17,8 @@ body {
       rgba(color(primary), 1),
       rgba(color(primary-light), 1)
     ),
-    url(img/zaw.JPG);
+    url(img/jordan.png);
   background-size: cover;
-
   position: relative;
   /* flex-direction: column;
   align-items: center;
@@ -46,5 +47,5 @@ body {
 }
 .header-primary-sub {
   font-size: 4rem;
-  position: center;
+  text-align: center;
 }
