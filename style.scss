@@ -17,12 +17,13 @@ body {
       rgba(color(primary), 0.3),
       rgba(color(primary-light), 0.3)
     ),
-    url(img/jordan.png);
+    url(img/carti.png);
   background-size: cover;
   position: relative;
   /* flex-direction: column;
   align-items: center;
   justify-content: center; */
+  clip-path: polygon(0 0, 100% 0, 94% 100%, 8% 100%);
 }
 .header-text-box {
   position: absolute;
@@ -33,7 +34,7 @@ body {
 .header-primary {
   text-align: center;
   font-weight: 700;
-  color: rgb(0, 255, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,4 +49,5 @@ body {
 .header-primary-sub {
   font-size: 4rem;
   text-align: center;
+  color: rgb(255, 0, 255);
 }
